@@ -544,7 +544,7 @@ img.alignright,
 
 .widget_search input.search-field {
 	width: 100%;
-	background: url(images/search.png) no-repeat center right transparent;
+	background: url(https://immortalsr.github.io/OJT/wp-content/themes/shopping/images/search.png) no-repeat center right transparent;
 	padding-right: 30px;
 }
 
@@ -1138,7 +1138,7 @@ Media Queries
 	.tinynav { 
 		display: block; 
 		color: #fff;
-		background: url(images/button.png) no-repeat center right #96588a;;
+		background: url(https://immortalsr.github.io/OJT/wp-content/themes/shopping/images/button.png) no-repeat center right #96588a;;
 		-webkit-appearance: none;
 		width: 100%;
 		padding: 17px 45px 17px 7px;
