@@ -1,0 +1,45 @@
+/*
+Theme Name: Sportspot
+Theme URI: https://catchthemes.com/themes/sportspot
+Author: Catch Themes
+Author URI: https://catchthemes.com
+Description: Sportspot is a free sleek and responsive sports WordPress block theme. The theme is perfect for sports clothing stores, supplements stores, equipment stores, or any sort of sports shop. Also, it is great for sports blogs and sports nutrition blogs. It comes with a beautiful design that makes a favorable impression on your consumers. This theme lets you show the categories and products with rates, descriptions, and images. It helps you to create a website that relays all the necessary information in a visually engaging and intuitive package. Furthermore, it has a CTA button, making your website look elegant and more engaging for the users. There are 18+ block patterns, 15 Templates, and 10 Template Parts available in this theme. Some of the block patterns are 404 Header With Background, Archive Header With Background, Best Seller Product, Blog Header With Background, Featured Content, Footer, Footer With Three Columns, Header Media, Header With Cart Banner, Header With Cart, Hero Content, 404 Content, Logo, Post Header With Background, Search Header With Background, Shop Header, and many more. It is a highly customizable theme that includes beautiful sections to showcase your product in a way your audience will love. So, attract the users to your website.
+Requires at least: 5.9
+Tested up to: 6.5
+Requires PHP: 5.6
+Version: 1.2
+License: GPLv3
+License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
+Text Domain: sportspot
+Tags: blog, portfolio, photography, one-column, two-columns, left-sidebar, right-sidebar, block-patterns, block-styles, custom-background, custom-logo, custom-menu, featured-images, footer-widgets, full-site-editing, threaded-comments, wide-blocks, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+Sportspot is based on Catch FSE WordPress Theme, 2012-2023 Catchthemes.com
+Catch FSE is distributed under the terms of the GNU GPL.
+*/
+
+/*--------------------------------------------------------------
+# Mixin
+--------------------------------------------------------------*/
+@import "sass/mixin/mixin";
+
+/*--------------------------------------------------------------
+# Blocks
+--------------------------------------------------------------*/
+
+@import "sass/blocks/all-blocks";
+
+/*--------------------------------------------------------------
+# Components
+--------------------------------------------------------------*/
+@import "sass/patterns/all-patterns";
+
+/* --- Block Media Quries
+-------------------------------------------------------- */
+@import "sass/media-query";
+
+/* --- Block Color
+-------------------------------------------------------- */
+@import "sass/color";

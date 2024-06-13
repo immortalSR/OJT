@@ -1,0 +1,19 @@
+.hero-section {
+    overflow: hidden;
+
+    .wp-block-image img {
+        @include transition(1s ease-in-out);
+        clip-path: polygon(50% 50%, 50% 50%, 50% 50%, 50% 50%);
+    }
+}
+
+
+.hero-section {
+
+    .hero-content {
+        @include transform(translateX(20%));
+        clip-path: polygon(0 0, 0 0, 0 100%, 0 100%);
+        opacity: 0;
+        @include transition(1s ease-in-out);
+    }
+}

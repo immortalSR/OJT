@@ -1,0 +1,238 @@
+/*
+Theme Name: Trekking Sports
+Theme URI: https://www.ovationthemes.com/wordpress/free-trekking-wordpress-theme/
+Author: pewilliams
+Author URI: https://www.ovationthemes.com/
+Description: Trekking Adventure Sport WordPress Theme is a website design template specifically designed for businesses and individuals involved in the trekking and adventure sports industry. It is a theme that allows you to create a website that showcases your trekking and adventure sports services, experiences, and products to potential clients and customers. The Trekking Adventure Sport WordPress Theme has a visually appealing and dynamic design, with features and functionalities that cater to the needs of the trekking and adventure sports industry. The theme also has a responsive design that looks great on different devices, such as desktops, tablets, and smartphones. Some of the key features and functionalities of the Trekking Adventure Sport WordPress Theme include the ability to create custom pages and posts for showcasing your trekking tours and adventure sports activities. The theme also includes features such as contact forms, maps, and booking systems that allow customers to book your services directly from your website. Additionally, it has social media integration and the ability to display customer reviews and ratings. The design of the Trekking Adventure Sport WordPress Theme is user-friendly and easy to navigate, with clear calls to action that encourage visitors to book your services. The theme also has customizable color schemes, fonts, and layouts, allowing you to personalize the look and feel of your website to match your brand identity.
+Version: 1.5
+Requires PHP: 5.6
+Tested up to: 6.4
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: trekking-sports
+Template: adventure-trekking-camp
+Tags: one-column, two-columns, three-columns, four-columns, right-sidebar, left-sidebar, grid-layout, full-width-template, sticky-post, block-styles, custom-colors, custom-background, custom-header, custom-menu, custom-logo, editor-style, featured-images, flexible-header, featured-image-header, footer-widgets, threaded-comments, wide-blocks, post-formats, food-and-drink, photography, entertainment
+
+Trekking Sports WordPress Theme, Copyright 2023 pewilliams
+Trekking Sports is distributed under the terms of the GNU GPL
+
+Trekking Sports WordPress Theme is child theme of Adventure Trekking Camp WordPress Theme, Copyright 2023 pewilliams
+Adventure Trekking Camp WordPress Theme is distributed under the terms of the GNU GPL
+*/
+
+/*color-change*/
+.woocommerce-message {
+    border-top-color: #ffdd00;
+}
+#Category-section .post-gallery .carousel-control-next-icon:hover, #Category-section .post-gallery .carousel-control-prev-icon:hover,#Category-section pre.wp-block-verse,.inner-div .date-box a,.entry-content .quotepost a,.entry-content .quotepost p,a.more-link,.address-box p,.address-box i,.entry-content a, .textwidget a, .comment-content a, .content-area a,.gb_nav_menu ul li a:active, .gb_nav_menu ul li a:hover,h3.slid-sub-head,.site-footer .widget-area a:hover,section#block-3 a:hover,a:hover{
+  color: #ffdd00;
+}
+.bread_crumb .without-img a:hover ,.bread_crumb a:hover,.bread_crumb span ,.woocommerce-breadcrumb a:hover{
+    color:#ffdd00 !important;
+}
+.custom-cursor, .custom-cursor-follower,.wc-block-cart__submit-container a,a.added_to_cart.wc-forward,.scrollup,#sidebar .tagcloud a:hover,.site-footer .tagcloud a:hover,.single-tags a:hover,.prev.page-numbers, .next.page-numbers ,.page-numbers.current ,.home-btn a, .box-button a, .linksbox a,button, input[type="button"], input[type="submit"],.scrollup,.site-info,.slider-button a,.gb_nav_menu ul ul,.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt,nav.woocommerce-MyAccount-navigation ul li,.woocommerce ul.products li.product .onsale, .woocommerce span.onsale,.scrollup.is-active:hover, .scrollup.is-active:focus,.scrollup,button, input[type="button"], input[type="submit"]{
+  background: #ffdd00;
+}
+.bread_crumb .without-img a, .bread_crumb .without-img,#sidebar .tagcloud a:hover,.site-footer .tagcloud a:hover,.single-tags a:hover,nav.woocommerce-MyAccount-navigation ul li a{
+  color: #000 !important;
+}
+.withoutimg-date-box ,.wc-block-cart,#sidebar label.wp-block-archives__label, #sidebar .wp-block-search .wp-block-search__label, #sidebar h3, #sidebar h1.wp-block-heading, #sidebar h2.wp-block-heading, #sidebar h3.wp-block-heading, #sidebar h4.wp-block-heading, #sidebar h5.wp-block-heading, #sidebar h6.wp-block-heading,.comment-body,.prev.page-numbers, .next.page-numbers,.wc-block-checkout__form, .wp-block-woocommerce-checkout-order-summary-block, .wc-block-checkout__actions_row a:hover,.wc-block-cart__submit-container a,a.added_to_cart.wc-forward,.woocommerce ul.products li.product .price,.woocommerce div.product p.price, .woocommerce div.product span.price,.home-btn a:hover, .box-button a:hover,.site-info a,a.more-link:hover,#Category-section .date-box,.linksbox a,.slider-button a,.home-btn a, .box-button a, .linksbox a,.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt,nav.woocommerce-MyAccount-navigation ul li a,h1,h2,h3,h4,h5,h6,.gb_nav_menu ul ul a,.woocommerce ul.products li.product .onsale, .woocommerce span.onsale,.woocommerce ul.products li.product .price, .woocommerce div.product p.price, .woocommerce div.product span.price,label,.entry-footer .cat-links a,.entry-footer .tags-links a,#sidebar td#prev a,#sidebar caption,#Category-section h3 a,a,.site-info,#sidebar h3,#Category-section .postbox.smallpostimage:hover h3 a,button, input[type="button"], input[type="submit"] {
+    color: #000;
+}
+nav.woocommerce-MyAccount-navigation ul li:hover,.wc-block-cart__submit-container a:hover, a.added_to_cart.wc-forward:hover, .woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover, .woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover,#slider .carousel-inner,.prev.page-numbers:hover, .next.page-numbers:hover,.menu-header,.copyright,button:hover, button:focus, input[type="button"]:hover, input[type="button"]:focus, input[type="submit"]:hover, input[type="submit"]:focus{
+  background: #000;
+}
+.withoutimg span,#sidebar label.wp-block-archives__label, #sidebar .wp-block-search .wp-block-search__label, #sidebar h3, #sidebar h1.wp-block-heading, #sidebar h2.wp-block-heading, #sidebar h3.wp-block-heading, #sidebar h4.wp-block-heading, #sidebar h5.wp-block-heading, #sidebar h6.wp-block-heading,.bypostauthor > .comment-body > .comment-meta > .comment-author .avatar, .comment-author .avatar{
+  border-color: #000;
+}
+.wc-block-components-product-badge {
+    box-shadow: 2px 2px 0 0 #000;
+    border: solid 2px #000 !important;
+}
+.linksbox a:hover,.home-btn a:hover, .box-button a:hover{
+  background: #fff;
+}
+.prev.page-numbers:hover, .next.page-numbers:hover,.menu-header,.copyright,button:hover, button:focus, input[type="button"]:hover, input[type="button"]:focus, input[type="submit"]:hover, input[type="submit"]:focus,h2.slide-title,#slider h2,a.rsswidget.rss-widget-title,span.wp-calendar-nav-prev a{
+  color: #fff;
+}
+nav.woocommerce-MyAccount-navigation ul li:hover a{
+  color: #fff !important;
+}
+.bread_crumb a{
+  color: #fff !important;
+  text-decoration: none;
+}
+.without-img-head, #preloader {
+    background-color: #fffdf2;
+}
+/*loader*/
+#loader,#loader:after{
+  border-top-color: #ffdd00;
+}
+#loader:before {
+  border-top-color: #000;
+}
+.spinner > div{
+  background-color: #000;
+}
+
+.linksbox a {
+  font-size: 13px;
+  font-weight: 600;
+}
+.gb_nav_menu ul ul a {
+  font-weight: 500;
+}
+h3.slid-sub-head {
+    font-size: 18px;
+    font-weight: 500;
+}
+h2.slide-title,#slider h2{
+  font-size: 45px;
+  font-weight: 600;
+}
+.home-btn a{
+    font-weight: 600;
+}
+#slider .carousel-inner:after {
+    content: "";
+    background-repeat: repeat-x;
+    background-position: center top;
+    display: block;
+    height: 130px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+#slider .carousel-inner:after {
+    background-image: url(assets/images/slide-after.png);
+}
+.carousel-caption{
+  bottom: 20%; 
+  right: 50%;
+}
+h2.idea-main-hd {
+    font-size: 35px;
+    font-weight: 600;
+}
+h3.idea-head {
+    font-size: 25px;
+}
+.idea-img-box.first img {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+.idea-img-box.first{
+  display: inline-block; 
+}
+.carousel-item img {
+    opacity: 0.7;
+    width: 100%;
+}
+/* Text meant only for screen readers. */
+.screen-reader-text {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute !important;
+  width: 1px;
+  word-wrap: normal !important;
+  /* Many screen reader and browser combinations announce broken words as they would appear visually. */
+}
+
+.screen-reader-text:focus {
+  background-color: #f1f1f1;
+  border-radius: 3px;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+  clip: auto !important;
+  clip-path: none;
+  color: #21759b;
+  display: block;
+  font-size: 14px;
+  font-size: 0.875rem;
+  font-weight: bold;
+  height: auto;
+  left: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000;
+  /* Above WP toolbar. */
+}
+/* Do not show the outline on the skip link target. */
+#content[tabindex="-1"]:focus {
+  outline: 0;
+}
+
+@media screen and (max-width: 375px) and (min-width: 320px){
+  .page-template-page-template .menu-header{
+    background: #000;
+  }
+  .toggle-menu button{
+    background: #ffdd00; 
+    color: #000;
+  }
+  #slider .carousel-inner:after{
+    height: 75px;
+  }
+}
+@media screen and (max-width: 425px) and (min-width: 320px){
+  .page-template-page-template .menu-header{
+    background: #000;
+  }
+  .toggle-menu button{
+    background: #ffdd00;
+    color: #000;
+  }
+  #slider .carousel-inner:after{
+    height: 75px;
+  }
+
+}
+@media screen and (max-width:600px){
+  .slide-inner{
+    text-align: center!important;
+    left: 15%!important;
+    right: 15%!important;
+  }
+  .slider-excerpt{
+    display: none;
+  }
+
+}
+@media screen and (max-width: 768px) and (min-width: 425px){
+  .page-template-page-template .menu-header{
+    background: #000;
+  }
+  .toggle-menu button{
+    background: #ffdd00;
+    color: #000;
+  }
+  #slider .carousel-inner:after{
+    height: 75px;
+  }
+}
+
+@media screen and (max-width:800px){
+  .gb_nav_menu ul ul{
+    background: transparent !important;
+  }
+  .side_gb_nav{
+    background: #000;
+  }
+  .fixed_header.fixed {
+    position: static !important;
+    background: #000 !important;
+  }
+  .gb_nav_menu ul li a:active, .gb_nav_menu ul li a:hover {
+    color: #ffdd00 !important;
+  }
+}

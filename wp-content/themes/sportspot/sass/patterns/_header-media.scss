@@ -1,0 +1,156 @@
+.block-editor-block-list__block {
+
+  .media-content {
+
+    h2,
+    .wp-block-button {
+      transform: none;
+      opacity: 1;
+    }
+  }
+}
+
+.wp-block-social-links.header-social {
+  position: absolute;
+  left: 2%;
+  top: 30%;
+  gap: 1.5rem;
+  transform: translateY(-50%);
+  flex-direction: column;
+
+  .wp-block-social-link .wp-block-social-link-anchor svg {
+    fill: var(--wp--preset--color--color-light);
+  }
+}
+
+.header-image.wp-block-column {
+  text-align: center;
+
+  img {
+    height: 400px;
+    object-fit: contain;
+  }
+}
+
+
+.media-content {
+
+
+  h2 {
+    overflow: hidden;
+    margin: 0;
+    display: inline-block;
+
+    &:first-child {
+      margin-right: 0.5rem;
+      margin-bottom: 0;
+    }
+  }
+
+  h2:first-child {
+    @include transition(1s);
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    opacity: 0;
+    @include transform(translateY(-50px))
+  }
+
+  h2:nth-child(2) {
+    @include transition(1s);
+    transition-delay: 0.6s;
+    @include transform(translateY(50px));
+    opacity: 0;
+    clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0 100%);
+  }
+
+  .wp-block-buttons {
+    align-items: initial;
+    margin-bottom: 0;
+    margin-top: 1.75rem;
+    gap: 1.15rem;
+
+    .wp-block-button {
+      @include transition(1s);
+      transition-delay: 0.8s;
+      @include transform(translateY(50px));
+      opacity: 0;
+    }
+
+    .wp-block-button:nth-child(1) {
+
+      clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0 100%);
+    }
+
+    .wp-block-button:nth-child(2) {
+      transition-delay: 1s;
+      clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0 100%);
+    }
+
+
+    a {
+      margin-top: 0;
+    }
+
+    .wp-block-button.is-style-outline {
+      .wp-block-button__link {
+        &:before {
+          background-color: var(--wp--preset--color--hover-color);
+        }
+
+        &:after {
+          border-color: var(--wp--preset--color--hover-color);
+        }
+
+        &:is(:hover, :focus) {
+          &:before {
+            background-color: var(--wp--preset--color--dark-color);
+          }
+
+          &:after {
+            border-color: var(--wp--preset--color--dark-color);
+          }
+        }
+      }
+    }
+
+  }
+
+
+  h2 {
+    line-height: 1.222;
+    margin-top: 0;
+    text-transform: uppercase;
+    overflow: hidden;
+    letter-spacing: 2px;
+  }
+
+  p {
+    @include transition(1s);
+    transition-delay: 0.8s;
+    @include transform(translateY(50px));
+    opacity: 0;
+    clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0 100%);
+  }
+}
+
+.wp-block-columns.header-media-content {
+  flex-direction: column-reverse;
+}
+
+.header-media {
+  padding-bottom: 2rem;
+  padding-top: 5rem;
+  overflow: hidden;
+  margin-top: 0;
+
+  .header-image.wp-block-column {
+    margin-bottom: 0;
+    @include transform(translateX(10%));
+    opacity: 0;
+    @include transition(0.5s ease-in-out);
+  }
+}
+
+.media-content h2 mark {
+  animation: textAnim 0.5s ease-in-out infinite;
+  @include transition(0.5s ease-in-out)
+}

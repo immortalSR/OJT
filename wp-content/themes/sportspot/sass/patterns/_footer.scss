@@ -1,0 +1,186 @@
+.upper-footer {
+  padding-bottom: var(--wp--custom--spacing--footer-gap);
+  padding-top: var(--wp--custom--spacing--footer-gap);
+
+  .detail {
+    .wp-block-group {
+      gap: 0;
+      width: 100%;
+
+      figure {
+        margin-right: 1.5rem;
+        width: 49px;
+      }
+
+      .wp-block-heading {
+        color: var(--wp--preset--color--color-light);
+        font-size: var(--wp--preset--font-size--upper-heading);
+        margin-bottom: 0;
+      }
+
+      p {
+        font-size: var(--wp--preset--font-size--upper-heading);
+      }
+    }
+  }
+
+  .footer-title {
+    font-weight: var(--wp--custom--typography--font-weight--bold);
+    margin-bottom: calc(var(--wp--custom--spacing--wp-outer) + 3px);
+    text-transform: capitalize;
+    font-family: var(--wp--preset--font-family--russo-one);
+
+    &.footer-site-title {
+      font-family: var(--wp--preset--font-family--russo-one);
+      font-size: var(--wp--preset--font-size--large);
+      line-height: 1;
+      text-transform: uppercase;
+    }
+  }
+}
+
+.four-columns,
+.logo-section {
+  .wp-block-columns {
+    display: grid;
+    grid-template-columns: repeat((auto-fit, minmax(200px, 1fr)));
+  }
+}
+
+.input-wrap {
+  position: relative;
+
+  &:after,
+  &:before {
+    content: "";
+    transition: 0.3s;
+    position: absolute;
+    opacity: 1;
+    z-index: 9;
+
+  }
+
+  &:before {
+    display: block;
+    background-color: var(--wp--preset--color--color-light);
+    height: 0.1rem;
+    border-radius: 1px;
+    top: 50%;
+    @include transform(translateY(-50%) translateX(-50%));
+    left: 50%;
+    width: 1rem;
+  }
+
+  &:after {
+    display: inline-block;
+    width: 0.5rem;
+    height: 0.5rem;
+    border: 0.125rem solid var(--wp--preset--color--color-light);
+    border-bottom: 0;
+    border-left: 0;
+    border-radius: 1px;
+    margin-left: 10px;
+    margin-bottom: 2px;
+    top: 50%;
+    left: 50%;
+    @include transform(translateY(55%) rotate(45deg) translateX(-150%));
+  }
+}
+
+.tnp.tnp-subscription-minimal input.tnp-submit {
+  border: 0;
+  font-size: var(--wp--preset--font-size--medium);
+  font-family: var(--wp--preset--font-family--montserrat);
+  font-weight: var(--wp--custom--typography--font-weight--bold);
+  height: 55px;
+  position: relative;
+  padding: 0 30px;
+  text-transform: uppercase;
+  text-indent: -99999px;
+  z-index: 1;
+}
+
+.tnp.tnp-subscription-minimal form {
+  @include flex;
+}
+
+.tnp.tnp-subscription-minimal input.tnp-email {
+  background-color: var(--wp--preset--color--foreground);
+  color: var(--wp--preset--color--secondary-text-color);
+  height: 55px;
+  max-width: 100%;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+
+  &::-webkit-input-placeholder {
+    color: var(--wp--preset--color--secondary-text-color);
+  }
+
+  &::-moz-placeholder {
+    /* Firefox 19+ */
+    color: var(--wp--preset--color--secondary-text-color);
+  }
+
+  &:-ms-input-placeholder {
+    /* IE 10+ */
+    color: var(--wp--preset--color--secondary-text-color);
+  }
+
+  &:-moz-placeholder {
+    /* Firefox 18- */
+    color: var(--wp--preset--color--secondary-text-color);
+  }
+}
+
+.subscribe-section .wp-block-columns {
+  margin-bottom: 0;
+}
+
+.footer-title+p a {
+  text-decoration: none;
+}
+
+.wp-block-latest-posts__list li {
+  overflow: hidden;
+
+  .wp-block-latest-posts__featured-image {
+    float: left;
+    max-width: 60px;
+    margin-right: 15px;
+  }
+}
+
+.wp-block-latest-posts__list li .wp-block-latest-posts__featured-image img {
+  width: 100%;
+}
+
+.wp-block-site-info .wp-block-social-link-anchor svg {
+  font-size: var(--wp--preset--font-size--extra-large);
+}
+
+.footer {
+  p {
+    margin: 0;
+  }
+
+  .wp-block-navigation__container,
+  .wp-block-page-list {
+    text-transform: capitalize;
+    font-weight: var(--wp--custom--typography--font-weight--normal);
+    font-size: var(--wp--preset--font-size--upper-heading);
+    gap: 0.8rem;
+  }
+}
+
+.wp-block-site-generator .wp-block-navigation-item .wp-block-navigation-item__content {
+  font-size: var(--wp--preset--font-size--extra-small);
+}
+
+.wp-block-group.wp-block-site-info {
+  gap: 1rem;
+}
+
+.footer {
+  overflow: hidden;
+}

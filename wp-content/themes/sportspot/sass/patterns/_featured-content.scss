@@ -1,0 +1,96 @@
+.wp-block-post-template {
+  li {
+    .wp-block-post-title {
+      font-size: var(--wp--preset--font-size--inner-section-title);
+      font-family: var(--wp--preset--font-family--russo-one);
+      font-weight: var(--wp--custom--typography--font-weight--normal);
+      text-transform: capitalize;
+    }
+
+    .wp-block-post-title {
+      margin-top: 0.6rem;
+    }
+  }
+}
+
+.wp-block-group.wp-block-post-meta>div {
+  position: relative;
+}
+
+.wp-block-group .wp-block-post-excerpt {
+  margin-block-start: 1.05rem;
+}
+
+.blog-section .wp-block-post-template,
+.wp-block-post-template.alignfull {
+  gap: var(--wp--custom--spacing--section-heading);
+}
+
+.wp-block-post-template figure {
+  margin-bottom: var(--wp--custom--spacing--extra-small);
+}
+
+figure a,
+.wp-block-post-title a {
+  padding: 0;
+}
+
+.wp-block-group.wp-block-post-meta {
+  @include flex;
+  align-items: center;
+  margin-top: 7.5px;
+}
+
+.w-block-widget a {
+  font-size: var(--wp--preset--font-size--upper-heading);
+}
+
+.wp-block-group.wp-block-post-container {
+  margin-top: 0;
+  padding: var(--wp--custom--spacing--wp-comment-vertical) var(--wp--custom--spacing--normal);
+}
+
+.wp-block-post-meta a {
+  font-size: var(--wp--preset--font-size--small);
+}
+
+.wp-block-columns.wp-block-sidebar-on-left,
+.wp-block-columns.wp-block-sidebar-on-right {
+  gap: var(--wp--custom--spacing--section-block-bottom);
+  justify-content: space-between;
+}
+
+.wp-block-tag-cloud>a {
+  border: 1px solid var(--wp--preset--color--border-color);
+}
+
+
+.featured-section {
+  .wp-block-post-featured-image {
+    @include border(45px);
+  }
+
+  .section-heading {
+    text-align: left;
+    margin-bottom: 0;
+  }
+
+  .wp-block-post-template li .wp-block-post-title {
+    font-size: var(--wp--preset--font-size--content-heading);
+    line-height: 1.58;
+
+    a {
+      background-image: linear-gradient(transparent calc(98% - 1px), var(--wp--preset--color--title-color) 1px);
+      background-size: 0;
+      background-repeat: no-repeat;
+      display: inline;
+      transition: 0.5s ease;
+      transition: 0.5s ease;
+
+    }
+
+    &:hover a {
+      background-size: 100%;
+    }
+  }
+}
